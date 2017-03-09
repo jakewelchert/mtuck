@@ -1,0 +1,90 @@
+header {
+}
+
+.header-index h1 {
+  text-transform: uppercase;
+}
+
+header h1, header h2 {
+  text-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+.header-interior {
+  height: 275px;
+}
+
+@media (min-width: 650px) {
+.header-interior {
+  height: 400px;
+}
+}
+
+@media (min-width: 800px) {
+.header-interior {
+  height: 600px;
+}
+}
+
+@media (min-width: 1200px) {
+.header-interior {
+  height: 700px;
+}
+}
+
+.header-index {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+	background-position: center top;
+	color: #fff;
+  background: transparent;
+  min-height: 500px;
+  height:;
+}
+
+  @media (min-width: 800px) {
+  .header-index {
+  min-height: 700px;
+  height: 80vh;
+  } 
+  }
+
+
+.header-getinvolved {
+  height: 80vh;
+  min-height: 600px;
+}
+
+.header-index-copy {
+  max-width: 800px;
+  margin: 0% 7% 0 25px;
+  text-align: left;
+}
+
+@media (min-width: 650px) {
+.header-index-copy {
+  text-align: left;
+  margin: 0 10% 0 5%;
+}
+}
+
+@media (min-width: 800px) {
+.header-index-copy {
+  margin: 0 0 0 7%;
+}
+}
+
+.header-index-copy p {
+  font-weight: 300;
+  font-size: 27px;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

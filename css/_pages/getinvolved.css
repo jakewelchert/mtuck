@@ -1,0 +1,37 @@
+.get-involved {
+	color: #fff;
+	max-width: 1000px;
+	text-align: center;
+	min-height: 500px;
+	height: 70vh;
+}
+
+.get-involved p {
+	max-width: 900px;
+	margin: 25px auto 0;
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 0 0 10px rgba(0,0,0,.8);
+	line-height: 1.4;
+}
+
+	@media screen and (min-width: 800px) {
+	.get-involved {
+	padding-bottom: 150px;
+	min-height: 700px;
+	}
+
+	.get-involved p {
+	font-size: 30px;
+	}
+	}
+
+
+ul.get-involved-share {
+	padding-top: 35px;
+	list-style: none;
+}
+
+ul.get-involved-share li {
+	display: inline-block;
+}

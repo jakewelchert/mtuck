@@ -1,0 +1,47 @@
+.donate-background {
+    background-image: url(../../img/donate-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.donate-logo img {
+	margin: 0 auto;
+	width: 80px;
+	padding-top: 11px;
+}
+	@media screen and (min-width: 800px) {
+	.donate-logo img {
+	width: 125px;
+	padding-top: 20px;
+	}
+	}
+
+.donate-field {
+	background-color: #fff;
+	padding: 25px;
+	margin-top: 0px;
+	border-top: 1px solid #ddd;
+}
+
+	@media screen and (min-width: 500px) {
+	.donate-field {
+	padding: 50px;
+	}
+	}
+
+	@media screen and (min-width: 800px) {
+	.donate-field {
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+	max-width: 650px;
+	margin: 50px auto 150px;
+	border-top: 0px;
+	}
+	}
+
+.donate-field input {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 50px;
+}
